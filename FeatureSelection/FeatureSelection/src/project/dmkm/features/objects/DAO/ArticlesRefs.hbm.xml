@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 2, 2013 1:29:28 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="project.dmkm.features.objects.DAO.ArticlesRefs" table="articles_refs" catalog="clean">
+        <composite-id name="id" class="project.dmkm.features.objects.DAO.ArticlesRefsId">
+            <key-property name="id" type="int">
+                <column name="id" />
+            </key-property>
+            <key-property name="firstAuthor" type="string">
+                <column name="first_author" length="100" />
+            </key-property>
+            <key-property name="year" type="java.lang.Integer">
+                <column name="year" />
+            </key-property>
+            <key-property name="journal" type="string">
+                <column name="journal" length="200" />
+            </key-property>
+            <key-property name="volume" type="string">
+                <column name="volume" length="10" />
+            </key-property>
+            <key-property name="page" type="string">
+                <column name="page" length="10" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 2, 2013 1:29:28 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="project.dmkm.features.objects.DAO.ArticlesInstitutions" table="articles_institutions" catalog="clean">
+        <id name="newid" type="java.lang.Integer">
+            <column name="newid" />
+            <generator class="identity" />
+        </id>
+        <property name="id" type="int">
+            <column name="id" not-null="true" />
+        </property>
+        <property name="d1" type="int">
+            <column name="d1" not-null="true" />
+        </property>
+        <property name="d2" type="int">
+            <column name="d2" not-null="true" />
+        </property>
+        <property name="institution" type="string">
+            <column name="institution" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>

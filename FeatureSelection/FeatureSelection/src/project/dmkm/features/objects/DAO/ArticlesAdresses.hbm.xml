@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 2, 2013 1:29:28 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="project.dmkm.features.objects.DAO.ArticlesAdresses" table="articles_adresses" catalog="clean">
+        <composite-id name="id" class="project.dmkm.features.objects.DAO.ArticlesAdressesId">
+            <key-property name="id" type="int">
+                <column name="id" />
+            </key-property>
+            <key-property name="d1" type="int">
+                <column name="d1" />
+            </key-property>
+            <key-property name="d2" type="int">
+                <column name="d2" />
+            </key-property>
+            <key-property name="adresse" type="string">
+                <column name="adresse" length="100" />
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>

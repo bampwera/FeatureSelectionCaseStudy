@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="FeatureSession">
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.check_nullability">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">admin</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/clean</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <mapping resource="project/dmkm/features/objects/DAO/Matrix.hbm.xml" />
+        <mapping resource="project/dmkm/features/objects/DAO/ArticlesKeywords.hbm.xml" />
+        <mapping resource="project/dmkm/features/objects/DAO/ArticlesRefs.hbm.xml" />
+        <mapping resource="project/dmkm/features/objects/DAO/ArticlesAuthors.hbm.xml" />
+        <mapping resource="project/dmkm/features/objects/DAO/Cosinesim.hbm.xml" />
+        <mapping resource="project/dmkm/features/objects/DAO/ArticlesSubjects.hbm.xml" />
+        <mapping resource="project/dmkm/features/objects/DAO/ArticlesInstitutions.hbm.xml" />
+        <mapping resource="project/dmkm/features/objects/DAO/ArticlesCountries.hbm.xml" />
+        <mapping resource="project/dmkm/features/objects/DAO/ArticlesAdresses.hbm.xml" />
+        <mapping resource="project/dmkm/features/objects/DAO/Articles.hbm.xml" />
+        <mapping resource="project/dmkm/features/objects/DAO/Cleaninst.hbm.xml" />
+    </session-factory>
+</hibernate-configuration>

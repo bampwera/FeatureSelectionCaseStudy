@@ -1,0 +1,681 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 2, 2013 1:29:28 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="project.dmkm.features.objects.DAO.Cosinesim" table="cosinesim" catalog="clean">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="a1" type="java.lang.Double">
+            <column name="A1" precision="10" scale="3" />
+        </property>
+        <property name="a2" type="java.lang.Double">
+            <column name="A2" precision="10" scale="3" />
+        </property>
+        <property name="a3" type="java.lang.Double">
+            <column name="A3" precision="10" scale="3" />
+        </property>
+        <property name="a4" type="java.lang.Double">
+            <column name="A4" precision="10" scale="3" />
+        </property>
+        <property name="a5" type="java.lang.Double">
+            <column name="A5" precision="10" scale="3" />
+        </property>
+        <property name="a6" type="java.lang.Double">
+            <column name="A6" precision="10" scale="3" />
+        </property>
+        <property name="a7" type="java.lang.Double">
+            <column name="A7" precision="10" scale="3" />
+        </property>
+        <property name="a8" type="java.lang.Double">
+            <column name="A8" precision="10" scale="3" />
+        </property>
+        <property name="a9" type="java.lang.Double">
+            <column name="A9" precision="10" scale="3" />
+        </property>
+        <property name="a10" type="java.lang.Double">
+            <column name="A10" precision="10" scale="3" />
+        </property>
+        <property name="a11" type="java.lang.Double">
+            <column name="A11" precision="10" scale="3" />
+        </property>
+        <property name="a12" type="java.lang.Double">
+            <column name="A12" precision="10" scale="3" />
+        </property>
+        <property name="a13" type="java.lang.Double">
+            <column name="A13" precision="10" scale="3" />
+        </property>
+        <property name="a14" type="java.lang.Double">
+            <column name="A14" precision="10" scale="3" />
+        </property>
+        <property name="a15" type="java.lang.Double">
+            <column name="A15" precision="10" scale="3" />
+        </property>
+        <property name="a16" type="java.lang.Double">
+            <column name="A16" precision="10" scale="3" />
+        </property>
+        <property name="a17" type="java.lang.Double">
+            <column name="A17" precision="10" scale="3" />
+        </property>
+        <property name="a18" type="java.lang.Double">
+            <column name="A18" precision="10" scale="3" />
+        </property>
+        <property name="a19" type="java.lang.Double">
+            <column name="A19" precision="10" scale="3" />
+        </property>
+        <property name="a20" type="java.lang.Double">
+            <column name="A20" precision="10" scale="3" />
+        </property>
+        <property name="a21" type="java.lang.Double">
+            <column name="A21" precision="10" scale="3" />
+        </property>
+        <property name="a22" type="java.lang.Double">
+            <column name="A22" precision="10" scale="3" />
+        </property>
+        <property name="a23" type="java.lang.Double">
+            <column name="A23" precision="10" scale="3" />
+        </property>
+        <property name="a24" type="java.lang.Double">
+            <column name="A24" precision="10" scale="3" />
+        </property>
+        <property name="a25" type="java.lang.Double">
+            <column name="A25" precision="10" scale="3" />
+        </property>
+        <property name="a26" type="java.lang.Double">
+            <column name="A26" precision="10" scale="3" />
+        </property>
+        <property name="a27" type="java.lang.Double">
+            <column name="A27" precision="10" scale="3" />
+        </property>
+        <property name="a28" type="java.lang.Double">
+            <column name="A28" precision="10" scale="3" />
+        </property>
+        <property name="a29" type="java.lang.Double">
+            <column name="A29" precision="10" scale="3" />
+        </property>
+        <property name="a30" type="java.lang.Double">
+            <column name="A30" precision="10" scale="3" />
+        </property>
+        <property name="a31" type="java.lang.Double">
+            <column name="A31" precision="10" scale="3" />
+        </property>
+        <property name="a32" type="java.lang.Double">
+            <column name="A32" precision="10" scale="3" />
+        </property>
+        <property name="a33" type="java.lang.Double">
+            <column name="A33" precision="10" scale="3" />
+        </property>
+        <property name="a34" type="java.lang.Double">
+            <column name="A34" precision="10" scale="3" />
+        </property>
+        <property name="a35" type="java.lang.Double">
+            <column name="A35" precision="10" scale="3" />
+        </property>
+        <property name="a36" type="java.lang.Double">
+            <column name="A36" precision="10" scale="3" />
+        </property>
+        <property name="a37" type="java.lang.Double">
+            <column name="A37" precision="10" scale="3" />
+        </property>
+        <property name="a38" type="java.lang.Double">
+            <column name="A38" precision="10" scale="3" />
+        </property>
+        <property name="a39" type="java.lang.Double">
+            <column name="A39" precision="10" scale="3" />
+        </property>
+        <property name="a40" type="java.lang.Double">
+            <column name="A40" precision="10" scale="3" />
+        </property>
+        <property name="a41" type="java.lang.Double">
+            <column name="A41" precision="10" scale="3" />
+        </property>
+        <property name="a42" type="java.lang.Double">
+            <column name="A42" precision="10" scale="3" />
+        </property>
+        <property name="a43" type="java.lang.Double">
+            <column name="A43" precision="10" scale="3" />
+        </property>
+        <property name="a44" type="java.lang.Double">
+            <column name="A44" precision="10" scale="3" />
+        </property>
+        <property name="a45" type="java.lang.Double">
+            <column name="A45" precision="10" scale="3" />
+        </property>
+        <property name="a46" type="java.lang.Double">
+            <column name="A46" precision="10" scale="3" />
+        </property>
+        <property name="a47" type="java.lang.Double">
+            <column name="A47" precision="10" scale="3" />
+        </property>
+        <property name="a48" type="java.lang.Double">
+            <column name="A48" precision="10" scale="3" />
+        </property>
+        <property name="a49" type="java.lang.Double">
+            <column name="A49" precision="10" scale="3" />
+        </property>
+        <property name="a50" type="java.lang.Double">
+            <column name="A50" precision="10" scale="3" />
+        </property>
+        <property name="a51" type="java.lang.Double">
+            <column name="A51" precision="10" scale="3" />
+        </property>
+        <property name="a52" type="java.lang.Double">
+            <column name="A52" precision="10" scale="3" />
+        </property>
+        <property name="a53" type="java.lang.Double">
+            <column name="A53" precision="10" scale="3" />
+        </property>
+        <property name="a54" type="java.lang.Double">
+            <column name="A54" precision="10" scale="3" />
+        </property>
+        <property name="a55" type="java.lang.Double">
+            <column name="A55" precision="10" scale="3" />
+        </property>
+        <property name="a56" type="java.lang.Double">
+            <column name="A56" precision="10" scale="3" />
+        </property>
+        <property name="a57" type="java.lang.Double">
+            <column name="A57" precision="10" scale="3" />
+        </property>
+        <property name="a58" type="java.lang.Double">
+            <column name="A58" precision="10" scale="3" />
+        </property>
+        <property name="a59" type="java.lang.Double">
+            <column name="A59" precision="10" scale="3" />
+        </property>
+        <property name="a60" type="java.lang.Double">
+            <column name="A60" precision="10" scale="3" />
+        </property>
+        <property name="a61" type="java.lang.Double">
+            <column name="A61" precision="10" scale="3" />
+        </property>
+        <property name="a62" type="java.lang.Double">
+            <column name="A62" precision="10" scale="3" />
+        </property>
+        <property name="a63" type="java.lang.Double">
+            <column name="A63" precision="10" scale="3" />
+        </property>
+        <property name="a64" type="java.lang.Double">
+            <column name="A64" precision="10" scale="3" />
+        </property>
+        <property name="a65" type="java.lang.Double">
+            <column name="A65" precision="10" scale="3" />
+        </property>
+        <property name="a66" type="java.lang.Double">
+            <column name="A66" precision="10" scale="3" />
+        </property>
+        <property name="a67" type="java.lang.Double">
+            <column name="A67" precision="10" scale="3" />
+        </property>
+        <property name="a68" type="java.lang.Double">
+            <column name="A68" precision="10" scale="3" />
+        </property>
+        <property name="a69" type="java.lang.Double">
+            <column name="A69" precision="10" scale="3" />
+        </property>
+        <property name="a70" type="java.lang.Double">
+            <column name="A70" precision="10" scale="3" />
+        </property>
+        <property name="a71" type="java.lang.Double">
+            <column name="A71" precision="10" scale="3" />
+        </property>
+        <property name="a72" type="java.lang.Double">
+            <column name="A72" precision="10" scale="3" />
+        </property>
+        <property name="a73" type="java.lang.Double">
+            <column name="A73" precision="10" scale="3" />
+        </property>
+        <property name="a74" type="java.lang.Double">
+            <column name="A74" precision="10" scale="3" />
+        </property>
+        <property name="a75" type="java.lang.Double">
+            <column name="A75" precision="10" scale="3" />
+        </property>
+        <property name="a76" type="java.lang.Double">
+            <column name="A76" precision="10" scale="3" />
+        </property>
+        <property name="a77" type="java.lang.Double">
+            <column name="A77" precision="10" scale="3" />
+        </property>
+        <property name="a78" type="java.lang.Double">
+            <column name="A78" precision="10" scale="3" />
+        </property>
+        <property name="a79" type="java.lang.Double">
+            <column name="A79" precision="10" scale="3" />
+        </property>
+        <property name="a80" type="java.lang.Double">
+            <column name="A80" precision="10" scale="3" />
+        </property>
+        <property name="a81" type="java.lang.Double">
+            <column name="A81" precision="10" scale="3" />
+        </property>
+        <property name="a82" type="java.lang.Double">
+            <column name="A82" precision="10" scale="3" />
+        </property>
+        <property name="a83" type="java.lang.Double">
+            <column name="A83" precision="10" scale="3" />
+        </property>
+        <property name="a84" type="java.lang.Double">
+            <column name="A84" precision="10" scale="3" />
+        </property>
+        <property name="a85" type="java.lang.Double">
+            <column name="A85" precision="10" scale="3" />
+        </property>
+        <property name="a86" type="java.lang.Double">
+            <column name="A86" precision="10" scale="3" />
+        </property>
+        <property name="a87" type="java.lang.Double">
+            <column name="A87" precision="10" scale="3" />
+        </property>
+        <property name="a88" type="java.lang.Double">
+            <column name="A88" precision="10" scale="3" />
+        </property>
+        <property name="a89" type="java.lang.Double">
+            <column name="A89" precision="10" scale="3" />
+        </property>
+        <property name="a90" type="java.lang.Double">
+            <column name="A90" precision="10" scale="3" />
+        </property>
+        <property name="a91" type="java.lang.Double">
+            <column name="A91" precision="10" scale="3" />
+        </property>
+        <property name="a92" type="java.lang.Double">
+            <column name="A92" precision="10" scale="3" />
+        </property>
+        <property name="a93" type="java.lang.Double">
+            <column name="A93" precision="10" scale="3" />
+        </property>
+        <property name="a94" type="java.lang.Double">
+            <column name="A94" precision="10" scale="3" />
+        </property>
+        <property name="a95" type="java.lang.Double">
+            <column name="A95" precision="10" scale="3" />
+        </property>
+        <property name="a96" type="java.lang.Double">
+            <column name="A96" precision="10" scale="3" />
+        </property>
+        <property name="a97" type="java.lang.Double">
+            <column name="A97" precision="10" scale="3" />
+        </property>
+        <property name="a98" type="java.lang.Double">
+            <column name="A98" precision="10" scale="3" />
+        </property>
+        <property name="a99" type="java.lang.Double">
+            <column name="A99" precision="10" scale="3" />
+        </property>
+        <property name="a100" type="java.lang.Double">
+            <column name="A100" precision="10" scale="3" />
+        </property>
+        <property name="a101" type="java.lang.Double">
+            <column name="A101" precision="10" scale="3" />
+        </property>
+        <property name="a102" type="java.lang.Double">
+            <column name="A102" precision="10" scale="3" />
+        </property>
+        <property name="a103" type="java.lang.Double">
+            <column name="A103" precision="10" scale="3" />
+        </property>
+        <property name="a104" type="java.lang.Double">
+            <column name="A104" precision="10" scale="3" />
+        </property>
+        <property name="a105" type="java.lang.Double">
+            <column name="A105" precision="10" scale="3" />
+        </property>
+        <property name="a106" type="java.lang.Double">
+            <column name="A106" precision="10" scale="3" />
+        </property>
+        <property name="a107" type="java.lang.Double">
+            <column name="A107" precision="10" scale="3" />
+        </property>
+        <property name="a108" type="java.lang.Double">
+            <column name="A108" precision="10" scale="3" />
+        </property>
+        <property name="a109" type="java.lang.Double">
+            <column name="A109" precision="10" scale="3" />
+        </property>
+        <property name="a110" type="java.lang.Double">
+            <column name="A110" precision="10" scale="3" />
+        </property>
+        <property name="a111" type="java.lang.Double">
+            <column name="A111" precision="10" scale="3" />
+        </property>
+        <property name="a112" type="java.lang.Double">
+            <column name="A112" precision="10" scale="3" />
+        </property>
+        <property name="a113" type="java.lang.Double">
+            <column name="A113" precision="10" scale="3" />
+        </property>
+        <property name="a114" type="java.lang.Double">
+            <column name="A114" precision="10" scale="3" />
+        </property>
+        <property name="a115" type="java.lang.Double">
+            <column name="A115" precision="10" scale="3" />
+        </property>
+        <property name="a116" type="java.lang.Double">
+            <column name="A116" precision="10" scale="3" />
+        </property>
+        <property name="a117" type="java.lang.Double">
+            <column name="A117" precision="10" scale="3" />
+        </property>
+        <property name="a118" type="java.lang.Double">
+            <column name="A118" precision="10" scale="3" />
+        </property>
+        <property name="a119" type="java.lang.Double">
+            <column name="A119" precision="10" scale="3" />
+        </property>
+        <property name="a120" type="java.lang.Double">
+            <column name="A120" precision="10" scale="3" />
+        </property>
+        <property name="a121" type="java.lang.Double">
+            <column name="A121" precision="10" scale="3" />
+        </property>
+        <property name="a122" type="java.lang.Double">
+            <column name="A122" precision="10" scale="3" />
+        </property>
+        <property name="a123" type="java.lang.Double">
+            <column name="A123" precision="10" scale="3" />
+        </property>
+        <property name="a124" type="java.lang.Double">
+            <column name="A124" precision="10" scale="3" />
+        </property>
+        <property name="a125" type="java.lang.Double">
+            <column name="A125" precision="10" scale="3" />
+        </property>
+        <property name="a126" type="java.lang.Double">
+            <column name="A126" precision="10" scale="3" />
+        </property>
+        <property name="a127" type="java.lang.Double">
+            <column name="A127" precision="10" scale="3" />
+        </property>
+        <property name="a128" type="java.lang.Double">
+            <column name="A128" precision="10" scale="3" />
+        </property>
+        <property name="a129" type="java.lang.Double">
+            <column name="A129" precision="10" scale="3" />
+        </property>
+        <property name="a130" type="java.lang.Double">
+            <column name="A130" precision="10" scale="3" />
+        </property>
+        <property name="a131" type="java.lang.Double">
+            <column name="A131" precision="10" scale="3" />
+        </property>
+        <property name="a132" type="java.lang.Double">
+            <column name="A132" precision="10" scale="3" />
+        </property>
+        <property name="a133" type="java.lang.Double">
+            <column name="A133" precision="10" scale="3" />
+        </property>
+        <property name="a134" type="java.lang.Double">
+            <column name="A134" precision="10" scale="3" />
+        </property>
+        <property name="a135" type="java.lang.Double">
+            <column name="A135" precision="10" scale="3" />
+        </property>
+        <property name="a136" type="java.lang.Double">
+            <column name="A136" precision="10" scale="3" />
+        </property>
+        <property name="a137" type="java.lang.Double">
+            <column name="A137" precision="10" scale="3" />
+        </property>
+        <property name="a138" type="java.lang.Double">
+            <column name="A138" precision="10" scale="3" />
+        </property>
+        <property name="a139" type="java.lang.Double">
+            <column name="A139" precision="10" scale="3" />
+        </property>
+        <property name="a140" type="java.lang.Double">
+            <column name="A140" precision="10" scale="3" />
+        </property>
+        <property name="a141" type="java.lang.Double">
+            <column name="A141" precision="10" scale="3" />
+        </property>
+        <property name="a142" type="java.lang.Double">
+            <column name="A142" precision="10" scale="3" />
+        </property>
+        <property name="a143" type="java.lang.Double">
+            <column name="A143" precision="10" scale="3" />
+        </property>
+        <property name="a144" type="java.lang.Double">
+            <column name="A144" precision="10" scale="3" />
+        </property>
+        <property name="a145" type="java.lang.Double">
+            <column name="A145" precision="10" scale="3" />
+        </property>
+        <property name="a146" type="java.lang.Double">
+            <column name="A146" precision="10" scale="3" />
+        </property>
+        <property name="a147" type="java.lang.Double">
+            <column name="A147" precision="10" scale="3" />
+        </property>
+        <property name="a148" type="java.lang.Double">
+            <column name="A148" precision="10" scale="3" />
+        </property>
+        <property name="a149" type="java.lang.Double">
+            <column name="A149" precision="10" scale="3" />
+        </property>
+        <property name="a150" type="java.lang.Double">
+            <column name="A150" precision="10" scale="3" />
+        </property>
+        <property name="a151" type="java.lang.Double">
+            <column name="A151" precision="10" scale="3" />
+        </property>
+        <property name="a152" type="java.lang.Double">
+            <column name="A152" precision="10" scale="3" />
+        </property>
+        <property name="a153" type="java.lang.Double">
+            <column name="A153" precision="10" scale="3" />
+        </property>
+        <property name="a154" type="java.lang.Double">
+            <column name="A154" precision="10" scale="3" />
+        </property>
+        <property name="a155" type="java.lang.Double">
+            <column name="A155" precision="10" scale="3" />
+        </property>
+        <property name="a156" type="java.lang.Double">
+            <column name="A156" precision="10" scale="3" />
+        </property>
+        <property name="a157" type="java.lang.Double">
+            <column name="A157" precision="10" scale="3" />
+        </property>
+        <property name="a158" type="java.lang.Double">
+            <column name="A158" precision="10" scale="3" />
+        </property>
+        <property name="a159" type="java.lang.Double">
+            <column name="A159" precision="10" scale="3" />
+        </property>
+        <property name="a160" type="java.lang.Double">
+            <column name="A160" precision="10" scale="3" />
+        </property>
+        <property name="a161" type="java.lang.Double">
+            <column name="A161" precision="10" scale="3" />
+        </property>
+        <property name="a162" type="java.lang.Double">
+            <column name="A162" precision="10" scale="3" />
+        </property>
+        <property name="a163" type="java.lang.Double">
+            <column name="A163" precision="10" scale="3" />
+        </property>
+        <property name="a164" type="java.lang.Double">
+            <column name="A164" precision="10" scale="3" />
+        </property>
+        <property name="a165" type="java.lang.Double">
+            <column name="A165" precision="10" scale="3" />
+        </property>
+        <property name="a166" type="java.lang.Double">
+            <column name="A166" precision="10" scale="3" />
+        </property>
+        <property name="a167" type="java.lang.Double">
+            <column name="A167" precision="10" scale="3" />
+        </property>
+        <property name="a168" type="java.lang.Double">
+            <column name="A168" precision="10" scale="3" />
+        </property>
+        <property name="a169" type="java.lang.Double">
+            <column name="A169" precision="10" scale="3" />
+        </property>
+        <property name="a170" type="java.lang.Double">
+            <column name="A170" precision="10" scale="3" />
+        </property>
+        <property name="a171" type="java.lang.Double">
+            <column name="A171" precision="10" scale="3" />
+        </property>
+        <property name="a172" type="java.lang.Double">
+            <column name="A172" precision="10" scale="3" />
+        </property>
+        <property name="a173" type="java.lang.Double">
+            <column name="A173" precision="10" scale="3" />
+        </property>
+        <property name="a174" type="java.lang.Double">
+            <column name="A174" precision="10" scale="3" />
+        </property>
+        <property name="a175" type="java.lang.Double">
+            <column name="A175" precision="10" scale="3" />
+        </property>
+        <property name="a176" type="java.lang.Double">
+            <column name="A176" precision="10" scale="3" />
+        </property>
+        <property name="a177" type="java.lang.Double">
+            <column name="A177" precision="10" scale="3" />
+        </property>
+        <property name="a178" type="java.lang.Double">
+            <column name="A178" precision="10" scale="3" />
+        </property>
+        <property name="a179" type="java.lang.Double">
+            <column name="A179" precision="10" scale="3" />
+        </property>
+        <property name="a180" type="java.lang.Double">
+            <column name="A180" precision="10" scale="3" />
+        </property>
+        <property name="a181" type="java.lang.Double">
+            <column name="A181" precision="10" scale="3" />
+        </property>
+        <property name="a182" type="java.lang.Double">
+            <column name="A182" precision="10" scale="3" />
+        </property>
+        <property name="a183" type="java.lang.Double">
+            <column name="A183" precision="10" scale="3" />
+        </property>
+        <property name="a184" type="java.lang.Double">
+            <column name="A184" precision="10" scale="3" />
+        </property>
+        <property name="a185" type="java.lang.Double">
+            <column name="A185" precision="10" scale="3" />
+        </property>
+        <property name="a186" type="java.lang.Double">
+            <column name="A186" precision="10" scale="3" />
+        </property>
+        <property name="a187" type="java.lang.Double">
+            <column name="A187" precision="10" scale="3" />
+        </property>
+        <property name="a188" type="java.lang.Double">
+            <column name="A188" precision="10" scale="3" />
+        </property>
+        <property name="a189" type="java.lang.Double">
+            <column name="A189" precision="10" scale="3" />
+        </property>
+        <property name="a190" type="java.lang.Double">
+            <column name="A190" precision="10" scale="3" />
+        </property>
+        <property name="a191" type="java.lang.Double">
+            <column name="A191" precision="10" scale="3" />
+        </property>
+        <property name="a192" type="java.lang.Double">
+            <column name="A192" precision="10" scale="3" />
+        </property>
+        <property name="a193" type="java.lang.Double">
+            <column name="A193" precision="10" scale="3" />
+        </property>
+        <property name="a194" type="java.lang.Double">
+            <column name="A194" precision="10" scale="3" />
+        </property>
+        <property name="a195" type="java.lang.Double">
+            <column name="A195" precision="10" scale="3" />
+        </property>
+        <property name="a196" type="java.lang.Double">
+            <column name="A196" precision="10" scale="3" />
+        </property>
+        <property name="a197" type="java.lang.Double">
+            <column name="A197" precision="10" scale="3" />
+        </property>
+        <property name="a198" type="java.lang.Double">
+            <column name="A198" precision="10" scale="3" />
+        </property>
+        <property name="a199" type="java.lang.Double">
+            <column name="A199" precision="10" scale="3" />
+        </property>
+        <property name="a200" type="java.lang.Double">
+            <column name="A200" precision="10" scale="3" />
+        </property>
+        <property name="a201" type="java.lang.Double">
+            <column name="A201" precision="10" scale="3" />
+        </property>
+        <property name="a202" type="java.lang.Double">
+            <column name="A202" precision="10" scale="3" />
+        </property>
+        <property name="a203" type="java.lang.Double">
+            <column name="A203" precision="10" scale="3" />
+        </property>
+        <property name="a204" type="java.lang.Double">
+            <column name="A204" precision="10" scale="3" />
+        </property>
+        <property name="a205" type="java.lang.Double">
+            <column name="A205" precision="10" scale="3" />
+        </property>
+        <property name="a206" type="java.lang.Double">
+            <column name="A206" precision="10" scale="3" />
+        </property>
+        <property name="a207" type="java.lang.Double">
+            <column name="A207" precision="10" scale="3" />
+        </property>
+        <property name="a208" type="java.lang.Double">
+            <column name="A208" precision="10" scale="3" />
+        </property>
+        <property name="a209" type="java.lang.Double">
+            <column name="A209" precision="10" scale="3" />
+        </property>
+        <property name="a210" type="java.lang.Double">
+            <column name="A210" precision="10" scale="3" />
+        </property>
+        <property name="a211" type="java.lang.Double">
+            <column name="A211" precision="10" scale="3" />
+        </property>
+        <property name="a212" type="java.lang.Double">
+            <column name="A212" precision="10" scale="3" />
+        </property>
+        <property name="a213" type="java.lang.Double">
+            <column name="A213" precision="10" scale="3" />
+        </property>
+        <property name="a214" type="java.lang.Double">
+            <column name="A214" precision="10" scale="3" />
+        </property>
+        <property name="a215" type="java.lang.Double">
+            <column name="A215" precision="10" scale="3" />
+        </property>
+        <property name="a216" type="java.lang.Double">
+            <column name="A216" precision="10" scale="3" />
+        </property>
+        <property name="a217" type="java.lang.Double">
+            <column name="A217" precision="10" scale="3" />
+        </property>
+        <property name="a218" type="java.lang.Double">
+            <column name="A218" precision="10" scale="3" />
+        </property>
+        <property name="a219" type="java.lang.Double">
+            <column name="A219" precision="10" scale="3" />
+        </property>
+        <property name="a220" type="java.lang.Double">
+            <column name="A220" precision="10" scale="3" />
+        </property>
+        <property name="a221" type="java.lang.Double">
+            <column name="A221" precision="10" scale="3" />
+        </property>
+        <property name="a222" type="java.lang.Double">
+            <column name="A222" precision="10" scale="3" />
+        </property>
+    </class>
+</hibernate-mapping>

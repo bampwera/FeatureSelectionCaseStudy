@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 2, 2013 1:29:28 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="project.dmkm.features.objects.DAO.Articles" table="articles" catalog="clean">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="authors" type="string">
+            <column name="authors" length="100" />
+        </property>
+        <property name="title" type="string">
+            <column name="title" length="300" />
+        </property>
+        <property name="journal" type="string">
+            <column name="journal" length="200" />
+        </property>
+        <property name="type" type="string">
+            <column name="type" length="20" />
+        </property>
+        <property name="numrefs" type="java.lang.Integer">
+            <column name="numrefs" />
+        </property>
+        <property name="timesCited" type="java.lang.Integer">
+            <column name="times_cited" />
+        </property>
+        <property name="doi" type="string">
+            <column name="doi" length="50" />
+        </property>
+        <property name="year" type="java.lang.Integer">
+            <column name="year" />
+        </property>
+        <property name="volume" type="string">
+            <column name="volume" length="10" />
+        </property>
+        <property name="issue" type="string">
+            <column name="issue" length="10" />
+        </property>
+        <property name="bp" type="string">
+            <column name="BP" length="10" />
+        </property>
+        <property name="ep" type="string">
+            <column name="EP" length="10" />
+        </property>
+        <property name="abbr" type="string">
+            <column name="abbr" length="32" />
+        </property>
+        <property name="ut" type="string">
+            <column name="ut" length="32" />
+        </property>
+        <property name="nsr" type="java.lang.Integer">
+            <column name="nsr" />
+        </property>
+    </class>
+</hibernate-mapping>

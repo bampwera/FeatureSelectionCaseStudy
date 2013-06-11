@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 2, 2013 1:29:28 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="project.dmkm.features.objects.DAO.Matrix" table="matrix" catalog="clean">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="paper1" type="java.lang.Integer">
+            <column name="paper1" />
+        </property>
+        <property name="paper2" type="java.lang.Integer">
+            <column name="paper2" />
+        </property>
+        <property name="discplinedistance" type="java.lang.Float">
+            <column name="discplinedistance" precision="12" scale="0" />
+        </property>
+        <property name="author" type="string">
+            <column name="author" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

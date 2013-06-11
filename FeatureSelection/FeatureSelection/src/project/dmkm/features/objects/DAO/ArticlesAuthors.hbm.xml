@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 2, 2013 1:29:28 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="project.dmkm.features.objects.DAO.ArticlesAuthors" table="articles_authors" catalog="clean">
+        <id name="newid" type="java.lang.Integer">
+            <column name="newid" />
+            <generator class="identity" />
+        </id>
+        <property name="id" type="java.lang.Integer">
+            <column name="id" />
+        </property>
+        <property name="d" type="int">
+            <column name="d" not-null="true" />
+        </property>
+        <property name="author" type="string">
+            <column name="author" length="100" />
+        </property>
+        <property name="lastname" type="string">
+            <column name="lastname" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>
